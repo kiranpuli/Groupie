@@ -1,53 +1,39 @@
-.sidebar{
-    height: 100vh;
-    flex:0.25;
-    display:flex;
-    flex-direction: column;
-    /* background: #999999; */
-    /* color: #333333; */
-    box-shadow: 6px 7px 5px -2px rgba(184,158,184,0.74);
-    /* box-shadow: 6px 7px 5px -3px rgba(184,158,184,0.62); */
+.sidebar {
+  height: 100vh;
+  flex: 0.25;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 6px 7px 5px -2px rgba(184, 158, 184, 0.74);
 }
-.sidebarHead{
-    flex:0.1;
-    padding:15px;
-    border-bottom: 5px solid #f2f2f2;
-    display: flex;
-    align-items:center;
-    background: #4d4dff;
-    color: #f2f2f2;
-    justify-content:space-evenly;
+.sidebarHead {
+  flex: 0.1;
+  padding: 15px;
+  border-bottom: 5px solid #f2f2f2;
+  display: flex;
+  align-items: center;
+  background: #4d4dff;
+  color: #f2f2f2;
+  justify-content: space-evenly;
 }
 
-.sidebarHead > h2{
-    margin-left: 5px;
+.sidebarHead > h2 {
+  margin-left: 5px;
 }
 
-.sidebarBody{
-    flex: 0.9;
-    text-align: center;
-    
+.sidebarBody {
+  flex: 0.9;
+  text-align: center;
 }
 
-
-
-/* .logoutbtn :hover{
-    cursor: pointer;
-    transform: scale(1.1);
-    transition-duration: 1s;
-} */
-
-
-.groupLink{
-    padding: 15px;
-    cursor: pointer;
-    color: #737373;
-    border: 1px solid #f2f2f2;
+.groupLink {
+  padding: 15px;
+  cursor: pointer;
+  color: #737373;
+  border: 1px solid #f2f2f2;
 }
-.groupLink:hover{
-    background: #4d4dff;
-    color: #f2f2f2;
-    transform: scale(1.01);
-    transition-duration: 0.5s;
+.groupLink:hover {
+  background: #4d4dff;
+  color: #f2f2f2;
+  transform: scale(1.01);
+  transition-duration: 0.5s;
 }
-
